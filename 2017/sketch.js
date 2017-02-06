@@ -10,7 +10,7 @@ c = 50;
 var direction = true;
 
 function setup() {
-    var myCanvas = createCanvas(windowWidth,windowHeight);
+    var myCanvas = createCanvas(windowWidth-10,windowHeight-10);
     for (var i=0; i<150; i++) {
         dots.push(new Dots());
     }
